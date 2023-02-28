@@ -1,3 +1,5 @@
+package Tehtud;
+
 public class Hekk {
 	private String nimi;
 	private Põõsas[] põõsad;

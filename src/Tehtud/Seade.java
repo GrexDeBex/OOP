@@ -1,3 +1,5 @@
+package Tehtud;
+
 public class Seade {
 	private int kood;
 	private String nimetus;

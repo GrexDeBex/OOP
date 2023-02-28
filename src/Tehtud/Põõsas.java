@@ -1,3 +1,5 @@
+package Tehtud;
+
 public class Põõsas {
 	private double kõrgus;
 	private double laius;
