@@ -26,7 +26,7 @@ public class TranspordiametiKampaania {
 	}
 
 	public static void main(String[] args) throws Exception{
-		ArrayList<Kodanik> kodanikud = loeKodanikud("Tehtud/kodanikud.txt");
+		ArrayList<Kodanik> kodanikud = loeKodanikud("src\\Tehtud\\kodanikud.txt");
 		ArrayList<Kodanik> kingitus = new ArrayList<>();
 
 		for (Kodanik kodanik : kodanikud) {
