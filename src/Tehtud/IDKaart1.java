@@ -1,11 +1,11 @@
 package Tehtud;
 
-public class IDKaart {
+public class IDKaart1 {
 	private String number;
 	private String omanik;
 	private String isikukood;
 
-	public IDKaart(String number, String omanik, String isikukood) {
+	public IDKaart1(String number, String omanik, String isikukood) {
 		this.number = number;
 		this.omanik = omanik;
 		this.isikukood = isikukood;
@@ -60,7 +60,7 @@ public class IDKaart {
 	}
 
 	public static void main(String[] args) {
-		IDKaart kaart = new IDKaart("AB32r2f2", "Gregor Rämmal", "50306012764");
+		IDKaart1 kaart = new IDKaart1("AB32r2f2", "Gregor Rämmal", "50306012764");
 		System.out.println(kaart);
 	}
 }

@@ -1,4 +1,4 @@
-import jdk.incubator.vector.VectorOperators;
+package Tehtud;
 
 public class Taara {
 	private String jook;

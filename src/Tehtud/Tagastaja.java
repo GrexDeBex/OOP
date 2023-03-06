@@ -1,3 +1,7 @@
+package Tehtud;
+
+import Tehtud.Taara;
+
 public class Tagastaja {
 	private String nimi;
 
