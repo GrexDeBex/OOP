@@ -1,6 +1,10 @@
+package Tehtud;
+
+import Tehtud.Kook;
+
 import java.time.LocalDate;
 
-public class ÜmmarguneKook extends Kook{
+public class ÜmmarguneKook extends Kook {
 	private double läbimõõt;
 
 	public ÜmmarguneKook(String nimetus, LocalDate parimEnne, double hind, double läbimõõt) {

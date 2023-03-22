@@ -1,7 +1,9 @@
-public class Ruut extends Ristkülik{
+package Tehtud;
+
+public class Ruut1 extends Ristkülik {
 	private double külg;
 
-	public Ruut( double külg) {
+	public Ruut1(double külg) {
 		super(külg, külg);
 		this.külg = külg;
 	}

@@ -1,3 +1,5 @@
+package Tehtud;
+
 public class Auto {
 	private String nimi;
 	private String mudel;

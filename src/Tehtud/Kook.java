@@ -1,3 +1,5 @@
+package Tehtud;
+
 import java.time.LocalDate;
 
 abstract public class Kook implements Comparable<Kook>{

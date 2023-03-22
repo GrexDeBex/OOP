@@ -1,3 +1,7 @@
+package Tehtud;
+
+import Tehtud.Auto;
+
 public class AutodeParandamine {
 	public static void main(String[] args) {
 		Autoteenindus teenindus = new Autoteenindus();

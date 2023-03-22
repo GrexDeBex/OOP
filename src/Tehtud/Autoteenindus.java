@@ -1,3 +1,7 @@
+package Tehtud;
+
+import Tehtud.Auto;
+
 public class Autoteenindus {
 	private int parandatudAutosid;
 	private double teenitudTulu;

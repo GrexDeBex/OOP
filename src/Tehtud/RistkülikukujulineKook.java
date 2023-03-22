@@ -1,6 +1,10 @@
+package Tehtud;
+
+import Tehtud.Kook;
+
 import java.time.LocalDate;
 
-public class RistkülikukujulineKook extends Kook{
+public class RistkülikukujulineKook extends Kook {
 	private double laius;
 	private double kõrgus;
 

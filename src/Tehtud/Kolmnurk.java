@@ -1,4 +1,8 @@
-public class Kolmnurk extends Hulknurk{
+package Tehtud;
+
+import Tehtud.Hulknurk;
+
+public class Kolmnurk extends Hulknurk {
 	private double alus;
 	private double kõrgus;
 

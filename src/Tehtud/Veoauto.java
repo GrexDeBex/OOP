@@ -1,4 +1,8 @@
-public class Veoauto extends Auto{
+package Tehtud;
+
+import Tehtud.Auto;
+
+public class Veoauto extends Auto {
 	private boolean füüsilineIsik;
 
 	public Veoauto(String nimi, String mudel, boolean elektriAuto, boolean füüsilineIsik) {
@@ -15,6 +19,6 @@ public class Veoauto extends Auto{
 	}
 
 	public String autoliik(){
-		return "Veoauto";
+		return "Tehtud.Veoauto";
 	}
 }

@@ -1,4 +1,6 @@
-public class Ristkülik extends Rööpkülik{
+package Tehtud;
+
+public class Ristkülik extends Rööpkülik {
 	private double alus;
 	private double kõrgus;
 

@@ -1,6 +1,8 @@
+package Tehtud;
+
 import java.time.LocalDate;
 
-public class KolmnurkneKook extends Kook{
+public class KolmnurkneKook extends Kook {
 	private double a;
 	private double b;
 	private double c;

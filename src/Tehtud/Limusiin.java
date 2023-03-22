@@ -1,6 +1,8 @@
-import java.time.Year;
+package Tehtud;
 
-public class Limusiin extends Luksusauto{
+import Tehtud.Luksusauto;
+
+public class Limusiin extends Luksusauto {
 
 	public Limusiin(String nimi, String mudel, boolean elektriAuto, int aasta) {
 		super(nimi, mudel, elektriAuto, aasta);
@@ -14,6 +16,6 @@ public class Limusiin extends Luksusauto{
 	}
 
 	public String autoliik(){
-		return "Limusiin";
+		return "Tehtud.Limusiin";
 	}
 }

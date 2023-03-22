@@ -1,3 +1,8 @@
+package Tehtud;
+
+import Tehtud.KolmnurkneKook;
+import Tehtud.Kook;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.time.LocalDate;

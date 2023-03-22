@@ -1,6 +1,10 @@
+package Tehtud;
+
+import Tehtud.Auto;
+
 import java.time.Year;
 
-public class Luksusauto extends Auto{
+public class Luksusauto extends Auto {
 	private int aasta;
 
 	public Luksusauto(String nimi, String mudel, boolean elektriAuto, int aasta) {
@@ -17,6 +21,6 @@ public class Luksusauto extends Auto{
 	}
 
 	public String autoliik(){
-		return "Luksusauto";
+		return "Tehtud.Luksusauto";
 	}
 }
