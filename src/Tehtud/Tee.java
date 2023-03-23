@@ -1,45 +1,35 @@
 package Tehtud;
 
-public class Tee implements Ruut {
-	private String ese;
-	private boolean tegelaneRuudul;
+public class Tee implements Comparable<Tee>{
+	private String nimi;
+	private double pikkus;
+	private int prioriteet;
 
-	public Tee(String ese) {
-		this.ese = ese;
-		tegelaneRuudul = false;
+	public Tee(String nimi, double pikkus, int prioriteet) {
+		this.nimi = nimi;
+		this.pikkus = pikkus;
+		this.prioriteet = prioriteet;
 	}
 
-	public Tee() {
-		ese = null;
-		tegelaneRuudul = false;
+	public String getNimi() {
+		return nimi;
 	}
 
-	public boolean võtaVastu(Tegelane tegelane){
-		tegelane.lisaEse(ese);
-		ese = null;
-		tegelaneRuudul = true;
-		return true;
+	public double getPikkus() {
+		return pikkus;
 	}
 
-	public boolean tegelaneVõibLahkuda(){
-		return true;
+
+
+	@Override
+	public String toString() {
+		return "Tehtud.Tee " +
+				"nimi='" + nimi + '\'' +
+				", pikkus=" + pikkus +
+				", prioriteet=" + prioriteet;
 	}
 
-	public void joonista(int x, int y){
-		System.out.printf("(%d, %d) tee.png\n", x, y);
-		if (ese != null){
-			System.out.printf("(%d, %d) %s.png\n", x, y, ese);
-		}
-		if (tegelaneRuudul){
-			System.out.printf("(%d, %d) tegelane.png\n", x, y);
-		}
-	}
-
-	public void saadaTegelaneMinema(){
-		if (tegelaneRuudul){
-			tegelaneRuudul = false;
-		}else {
-			throw new RuntimeException("Tegelast pole ruudul");
-		}
+	public int compareTo(Tee o){
+		return this.prioriteet - o.prioriteet;
 	}
 }

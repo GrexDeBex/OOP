@@ -10,7 +10,7 @@ public class Ruudumäng {
 		mängulaud = new Ruut[x][y];
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < y; j++) {
-				mängulaud[i][j] = new Tee();
+				mängulaud[i][j] = new Tee1();
 			}
 		}
 	}
