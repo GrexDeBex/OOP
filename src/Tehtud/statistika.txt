@@ -1,0 +1,6 @@
+Mari Maasikas;0.75;3
+Kersti Jõhvikas;1.26;5
+Pille Ploom;2.55;8
+Virve Vaarikas;1.75;9
+Jüri Mustikas;2.1;11
+Sten Pohl;6.87;21
